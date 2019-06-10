@@ -1,1 +1,1 @@
-worker: python Discord_User_Embed - upload.py
+worker: python User_Embed_up.py
