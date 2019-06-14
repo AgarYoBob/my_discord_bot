@@ -16,7 +16,7 @@ async def on_ready():
     print("----------")
 
 
-def makeEmbed(*, name=None, icon=None, colour=0xDEADBF, values={}):
+def makeEmbed(*, name=None, icon=None, colour=0x738ADB, values={}):
     '''Creates an embed messasge with specified inputs'''
 
     embedObj = discord.Embed(colour=colour)
