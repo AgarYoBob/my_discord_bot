@@ -1,7 +1,8 @@
 import discord
 from discord.ext import commands
 from asyncio import sleep
-import os
+import random
+
 
 
 me = commands.Bot(command_prefix='.', self_bot=True)
@@ -37,6 +38,17 @@ async def on_message(message):
         return
     if len(message.embeds) > 0:
         return
+
+    if message.content == "/소통1":
+        embed = discord.Embed(title="#소통해요_1", description="첫 번째 질문입니다!\n새로 생긴 <#590852771125788699> 시스템에 대해 본인의 생각을 아무렇게나 적어주세요!", color=0x738adb)
+        embed.set_footer(text="2019_06_19")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통2":
+        embed = discord.Embed(title="#소통해요_2", description="본인이 할 일 없을 때 평소에 하는 것을 적어주세요!\n예를 들어서 숨쉬기라던가 숨쉬기라던가...?", color=0x738adb)
+        embed.set_footer(text="2019_06_20")
+        await me.send_message(message.channel, embed=embed)
+
     if not message.content.startswith('/e '):
         return
 
@@ -49,5 +61,6 @@ async def on_message(message):
 
 
 
-token = os.environ["USER_TOKEN"]
+
+token = "MTUwNTc3MjkzOTgxNTE1Nzc2.XP0JzQ.5Vlf3gH_PlNR7aLS0_NFFTrsVl4"
 me.run(token, bot=False)
