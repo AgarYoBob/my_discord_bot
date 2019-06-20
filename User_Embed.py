@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from asyncio import sleep
-import random
+import os
 
 
 
@@ -82,7 +82,6 @@ async def on_message(message):
 
     actualObj = makeEmbed(name=name, icon=me.user.avatar_url, values=actualDict)
     await me.edit_message(message, '  ', embed=actualObj)
-
 
 
 
