@@ -69,7 +69,7 @@ async def on_message(message):
         embed.set_footer(text="2019_06_24")
 
     if message.content == "/소통7":
-        embed = discord.Embed(title="#소통해요_7", description="***강아지 vs 고양이*** | 본인이 가장 좋아하는 것은?", color=0x738adb)
+        embed = discord.Embed(title="#소통해요_7", description="**강아지 vs 고양이** | 본인이 가장 좋아하는 것은?", color=0x738adb)
         embed.set_footer(text="2019_06_25")
         await me.send_message(message.channel, embed=embed)
 
