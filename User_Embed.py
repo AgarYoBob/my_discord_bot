@@ -85,5 +85,5 @@ async def on_message(message):
 
 
 
-token = os.environ["BOT_TOKEN"]
+token = os.environ["USER_TOKEN"]
 me.run(token, bot=False)
