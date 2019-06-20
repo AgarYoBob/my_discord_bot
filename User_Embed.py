@@ -67,6 +67,7 @@ async def on_message(message):
     if message.content == "/소통6":
         embed = discord.Embed(title="#소통해요_6", description="망할 월요일이 돌아왔습니다!\n돌아온 월요일을 위해(?) 한 마디씩 남겨주세요!", color=0x738adb)
         embed.set_footer(text="2019_06_24")
+        await me.send_message(message.channel, embed=embed)
 
     if message.content == "/소통7":
         embed = discord.Embed(title="#소통해요_7", description="**강아지 vs 고양이** | 본인이 가장 좋아하는 것은?", color=0x738adb)
