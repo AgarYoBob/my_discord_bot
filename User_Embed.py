@@ -74,6 +74,36 @@ async def on_message(message):
         embed.set_footer(text="2019_06_25")
         await me.send_message(message.channel, embed=embed)
 
+    if message.content == "/소통8":
+        embed = discord.Embed(title="#소통해요_8", description="비가 오는 날씨에 가장 하고 싶은 일은 무엇일까요?", color=0x738adb)
+        embed.set_footer(text="2019_06_26")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통9":
+        embed = discord.Embed(title="#소통해요_9", description="여러분의 평균 타자 속도는 얼마나 되나요?", color=0x738adb)
+        embed.set_footer(text="2019_06_27")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통10":
+        embed = discord.Embed(title="#소통해요_10", description="<@311791989681291264> vs <@150577293981515776>\n둘 중 더 귀여운 사람을 선택한다면? ||~~난죽택~~||", color=0x738adb)
+        embed.set_footer(text="2019_06_28")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통11":
+        embed = discord.Embed(title="#소통해요_11", description="과옌 마춤뻡을 않지킈면 불ㅡ편하까???", color=0x738adb)
+        embed.set_footer(text="2019_06_29")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통12":
+        embed = discord.Embed(title="#소통해요_12", description="6월의 마지막 날입니다!\n올해 하반기의 목표는 무엇인가요?", color=0x738adb)
+        embed.set_footer(text="2019_06_30")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통13":
+        embed = discord.Embed(title="#소통해요_13", description="[들어오면 후회함] 서버에 건의를 해본다면?", color=0x738adb)
+        embed.set_footer(text="2019_07_01")
+        await me.send_message(message.channel, embed=embed)
+
     if not message.content.startswith('/e '):
         return
 
