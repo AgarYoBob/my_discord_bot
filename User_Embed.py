@@ -100,8 +100,28 @@ async def on_message(message):
         await me.send_message(message.channel, embed=embed)
 
     if message.content == "/소통13":
-        embed = discord.Embed(title="#소통해요_13", description="[들어오면 후회함] 서버에 건의를 해본다면?", color=0x738adb)
+        embed = discord.Embed(title="#소통해요_13", description="기말고사에 대한 응원의 메시지를 남겨보아요!\n~~물론 난 시험 안보니까 탈주~~", color=0x738adb)
         embed.set_footer(text="2019_07_01")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통14":
+        embed = discord.Embed(title="#소통해요_14", description="[들어오면 후회함] 서버에 건의를 해본다면?", color=0x738adb)
+        embed.set_footer(text="2019_07_02")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통15":
+        embed = discord.Embed(title="#소통해요_15", description="<#548571647947309076>에 있는 직업 중 자신이 가장 좋아하는 직업은 무엇인가요?", color=0x738adb)
+        embed.set_footer(text="2019_07_03")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통16":
+        embed = discord.Embed(title="#소통해요_16", description="다음 소통해요 주제를 예측해봅시다!\n||~~절대 할만한 주제 아이디어가 안떠오르는게 아니라구요!!~~||", color=0x738adb)
+        embed.set_footer(text="2019_07_04")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통17":
+        embed = discord.Embed(title="#소통해요_17", description="자신의 인생에서 절대 잊지 못할 순간은?", color=0x738adb)
+        embed.set_footer(text="2019_07_05")
         await me.send_message(message.channel, embed=embed)
 
     if not message.content.startswith('/e '):
