@@ -124,6 +124,21 @@ async def on_message(message):
         embed.set_footer(text="2019_07_05")
         await me.send_message(message.channel, embed=embed)
 
+    if message.content == "/소통19":
+        embed = discord.Embed(title="#소통해요_19", description="첫번째로 변경 된 밸런스 패치에 대한 생각을 적어주세요!\n의견은 나중에 참고하도록 하겠습니다.", color=0x738adb)
+        embed.set_footer(text="2019_07_07")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통20":
+        embed = discord.Embed(title="#소통해요_20", description="망할 월요일 컴 백 Again.\n월요일에 대한 저주를 한다면?", color=0x738adb)
+        embed.set_footer(text="2019_07_08")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통21":
+        embed = discord.Embed(title="#소통해요_21", description="이 서버에서 제일 미X놈은 누구인가요?", color=0x738adb)
+        embed.set_footer(text="2019_07_09")
+        await me.send_message(message.channel, embed=embed)
+
     if not message.content.startswith('/e '):
         return
 
