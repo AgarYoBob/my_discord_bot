@@ -139,6 +139,36 @@ async def on_message(message):
         embed.set_footer(text="2019_07_09")
         await me.send_message(message.channel, embed=embed)
 
+    if message.content == "/소통22":
+        embed = discord.Embed(title="#소통해요_22", description="샌즈가 ppap 추면서 액체괴물을 1000도칼로 자르는게 개꿀잼 몰카였다는게 학계의 정설이라는 얘기를 듣다니 상상도 못한 정체입니까 human?\n||~~대체 뭔 개소리인지 나도 모르게따~~||", color=0x738adb)
+        embed.set_footer(text="2019_07_10")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통23":
+        embed = discord.Embed(title="#소통해요_23", description="만약 내가 [들어오면 후회함] 서버를 뜯어고친다면 가장 먼저 할 것 같은 일은?", color=0x738adb)
+        embed.set_footer(text="2019_07_11")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통24":
+        embed = discord.Embed(title="#소통해요_24", description="[들어오면 후회함] 서버에서 추가하고 싶거나 퇴출하고 싶은 봇은?\n(의견 많으면 반영할게요!)", color=0x738adb)
+        embed.set_footer(text="2019_07_12")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통25":
+        embed = discord.Embed(title="#소통해요_25", description="<@311791989681291264>와(과) <@150577293981515776>(이)가 싸우면 누가 이길거가틈?\n||~~나~~||", color=0x738adb)
+        embed.set_footer(text="2019_07_13")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통26":
+        embed = discord.Embed(title="#소통해요_26", description="누군가 나에게 패드립이라는 스킬을 선사했을 때 당신이 할 반응으로 가장 적절한 것은 무엇일까요?", color=0x738adb)
+        embed.set_footer(text="2019_07_14")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통27":
+        embed = discord.Embed(title="#소통해요_27", description="벌써 7월이 반이나 지나갔어요!\nwa! 곧 방학이댜아ㅏㅏ!!", color=0x738adb)
+        embed.set_footer(text="2019_07_15")
+        await me.send_message(message.channel, embed=embed)
+
     if not message.content.startswith('/e '):
         return
 
