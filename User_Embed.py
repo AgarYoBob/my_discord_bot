@@ -169,6 +169,21 @@ async def on_message(message):
         embed.set_footer(text="2019_07_15")
         await me.send_message(message.channel, embed=embed)
 
+    if message.content == "/소통28":
+        embed = discord.Embed(title="#소통해요_28", description="가장 좋아하는 음악을 말해주세요!\n~~심심할때 들어봄~~", color=0x738adb)
+        embed.set_footer(text="2019_07_16")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통29":
+        embed = discord.Embed(title="#소통해요_29", description="시공의 폭풍은 정말 최고일까요? 아니라면 그 이유는 무엇일까요?\n||~~삐빅- 이미 죽은 게임입니다.~~||", color=0x738adb)
+        embed.set_footer(text="2019_07_17")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통30":
+        embed = discord.Embed(title="#소통해요_30", description="본인이 좋아하는 게임은?\n~~당연히 늑인 아닙니까아ㅏ~~", color=0x738adb)
+        embed.set_footer(text="2019_07_18")
+        await me.send_message(message.channel, embed=embed)
+
     if not message.content.startswith('/e '):
         return
 
