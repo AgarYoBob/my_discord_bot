@@ -184,6 +184,36 @@ async def on_message(message):
         embed.set_footer(text="2019_07_18")
         await me.send_message(message.channel, embed=embed)
 
+    if message.content == "/소통32":
+        embed = discord.Embed(title="#소통해요_32", description="오늘 늑인게임을 하기 가장 좋은 타이밍(시간대)는?", color=0x738adb)
+        embed.set_footer(text="2019_07_20")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통33":
+        embed = discord.Embed(title="#소통해요_33", description="지금 여러분이 사용하고 있는 키보드는 무엇인가요?", color=0x738adb)
+        embed.set_footer(text="2019_07_21")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통34":
+        embed = discord.Embed(title="#소통해요_34", description="늑대인간 vs 연쇄살인마\n당신의 선택은?", color=0x738adb)
+        embed.set_footer(text="2019_07_22")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통35":
+        embed = discord.Embed(title="#소통해요_35", description="건의 채널을 새로 생성하는 것에 대해서 어떻게 생각하시나요?", color=0x738adb)
+        embed.set_footer(text="2019_07_23")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통36":
+        embed = discord.Embed(title="#소통해요_36", description="당신이 생각하는 가장 똥망겜을 고르자면?", color=0x738adb)
+        embed.set_footer(text="2019_07_24")
+        await me.send_message(message.channel, embed=embed)
+
+    if message.content == "/소통37":
+        embed = discord.Embed(title="#소통해요_37", description="모든것이 귀찮아서 아무것도 하기 싫을 때 당신의 대처법은?", color=0x738adb)
+        embed.set_footer(text="2019_07_25")
+        await me.send_message(message.channel, embed=embed)
+
     if not message.content.startswith('/e '):
         return
 
